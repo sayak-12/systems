@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body form .field, body form, body {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+body h2 {
+  text-align: center;
+  color: royalblue;
+}
+body form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+body form .field {
+  gap: 10px;
+}
+body form .field input {
+  padding: 8px 0px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  transition: 0.3s;
+}
+body form .field input:focus {
+  border-bottom: 2px solid royalblue;
+  color: royalblue;
+}
+body form .field label {
+  color: royalblue;
+}
+body form input[type=submit] {
+  padding: 8px 15px;
+  background-color: rgb(49, 49, 228);
+  color: white;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body form input[type=submit]:hover {
+  background-color: rgb(27, 27, 145);
+}/*# sourceMappingURL=style.css.map */
